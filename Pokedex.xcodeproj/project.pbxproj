@@ -12,6 +12,7 @@
 		20422200206E7C8800068F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204221FE206E7C8800068F26 /* Main.storyboard */; };
 		20422202206E7C8800068F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20422201206E7C8800068F26 /* Assets.xcassets */; };
 		20422205206E7C8800068F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20422203206E7C8800068F26 /* LaunchScreen.storyboard */; };
+		2042220E206E81EE00068F26 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2042220D206E81EE00068F26 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		20422201206E7C8800068F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20422204206E7C8800068F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20422206206E7C8800068F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2042220D206E81EE00068F26 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		204221F9206E7C8800068F26 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				2042220C206E81A100068F26 /* Controller */,
 				204221FA206E7C8800068F26 /* AppDelegate.swift */,
 				204221FC206E7C8800068F26 /* ViewController.swift */,
 				204221FE206E7C8800068F26 /* Main.storyboard */,
 				20422201206E7C8800068F26 /* Assets.xcassets */,
+				2042220D206E81EE00068F26 /* pokemon.csv */,
 				20422203206E7C8800068F26 /* LaunchScreen.storyboard */,
 				20422206206E7C8800068F26 /* Info.plist */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		2042220C206E81A100068F26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				20422205206E7C8800068F26 /* LaunchScreen.storyboard in Resources */,
 				20422202206E7C8800068F26 /* Assets.xcassets in Resources */,
+				2042220E206E81EE00068F26 /* pokemon.csv in Resources */,
 				20422200206E7C8800068F26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
